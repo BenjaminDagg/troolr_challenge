@@ -4,6 +4,8 @@ import './App.css';
 import { Logo } from './components/Logo/Logo.js';
 import { NavBar } from "./components/NavBar/NavBar";
 import { ProfileTile} from "./components/ProfileTile/ProfileTile";
+import { profiles} from "./models/profiles";
+import { ProfileList} from "./components/ProfileList/ProfileList";
 
 class App extends Component {
   render() {
@@ -11,7 +13,7 @@ class App extends Component {
       <div className="App">
           <Logo/>
           <NavBar/>
-          <ProfileTile/>
+          <ProfileList profiles={profiles}/>
       </div>
     );
   }

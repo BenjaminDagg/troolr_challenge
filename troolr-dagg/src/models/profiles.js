@@ -1,4 +1,4 @@
-const profiles = [{
+export const profiles = [{
     "url": "alex",
     "name": "Alex Matarasso",
     "score": 0,

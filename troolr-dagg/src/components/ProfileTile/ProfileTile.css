@@ -1,11 +1,32 @@
 .profile-container {
     height: 300px;
-    width: 300px;
+    width: 200px;
     background-color: red;
-    margin: 100px;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 .profile-container img {
-    height: 50px;
-    width: 50px;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+
+}
+
+.profile-container button {
+    width: 50%;
+    background-color: #337ab7;
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+    padding: 5px;
+    position: inherit;
+    right: 0;
+}
+
+.profile-container p {
+
 }
