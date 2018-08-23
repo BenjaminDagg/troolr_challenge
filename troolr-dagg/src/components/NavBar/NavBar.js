@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "./NavBar.css";
 
+
+
 /*
 This component is the navigation bar at the
 top of the home page
@@ -13,6 +15,7 @@ export class NavBar extends Component {
     }
 
     render() {
+
 
         var style = {
             'background-color' : 'rgb(92, 184, 92)'
