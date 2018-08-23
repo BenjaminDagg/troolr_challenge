@@ -1,0 +1,27 @@
+#navbar {
+
+    width: 100%;
+    position:relative;
+    top: 60px;
+
+}
+
+ul {
+
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+
+    float: left;
+
+}
+
+li a {
+
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}

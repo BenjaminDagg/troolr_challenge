@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Logo } from './components/Logo/Logo.js';
+import { NavBar } from "./components/NavBar/NavBar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Logo/>
+          <Logo/>
+          <NavBar/>
+
       </div>
     );
   }
