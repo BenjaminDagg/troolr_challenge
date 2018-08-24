@@ -6,6 +6,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { ProfileTile} from "./components/ProfileTile/ProfileTile";
 import { profiles} from "./models/profiles";
 import { ProfileList} from "./components/ProfileList/ProfileList";
+import {ProfileResultTable} from "./components/ProfileResultTable/ProfileResultTable";
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
       <div className="App">
           <Logo/>
           <NavBar/>
-          <ProfileList profiles={profiles}/>
+          <ProfileResultTable profiles={profiles}/>
       </div>
     );
   }
