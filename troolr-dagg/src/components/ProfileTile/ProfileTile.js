@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./ProfileTile.css";
+import { StarRating} from "../StarRating/StarRating";
 
 /*
 This component displays a div to represent
@@ -28,6 +29,7 @@ export class ProfileTile extends Component {
                 <p>
                     {this.props.profile.address.city}, {this.props.profile.address.state}
                 </p>
+                <StarRating stars={this.props.profile.averageRating}/>
                 <button>View Profile</button>
             </div>
         );

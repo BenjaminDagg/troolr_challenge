@@ -1,0 +1,26 @@
+.star-container {
+    position:absolute;
+    color: #bdbdbd;
+    left: 0;
+    bottom: 0;
+}
+
+.star {
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.star span {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: orange;
+}
+
+.star span:before {
+    content:"\2606\2606\2606\2606\2606";
+    position: absolute;
+    color: #bdbdbd;
+    z-index: -1;
+}

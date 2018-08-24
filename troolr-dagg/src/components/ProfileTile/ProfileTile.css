@@ -1,7 +1,6 @@
 .profile-container {
     height: 350px;
     width: 250px;
-    background-color: red;
     margin: 10px;
     border-radius: 8px;
     position: relative;
@@ -27,8 +26,9 @@
     padding: 5px;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 
 .profile-container p {
-
+    color: darkgray;
 }
