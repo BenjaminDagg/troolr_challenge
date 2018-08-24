@@ -6,3 +6,10 @@
 
 }
 
+#result-header {
+    text-align:left;
+}
+
+#result-count {
+    color: orange;
+}

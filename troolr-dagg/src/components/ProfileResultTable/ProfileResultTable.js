@@ -105,6 +105,7 @@ export class ProfileResultTable extends Component {
 
         return (
             <div id="profile-page-container">
+                <h3 id="result-header">Consulting in Valencia, Ca <span id="result-count">({this.props.profiles.length} Results)</span></h3>
                 <ProfileListFilter onFilterChanged={this.onFilterChanged} filter={this.state.profileFilter}/>
 
                 <ProfileList categoryFilter={this.state.categoryFilter} filter={this.state.profileFilter} profiles={this.props.profiles}/>
