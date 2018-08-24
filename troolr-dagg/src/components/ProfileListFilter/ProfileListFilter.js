@@ -60,12 +60,14 @@ export class ProfileListFilter extends Component {
         */
         return (
             <div id="list-filter">
+
                 <button onClick={this.toggleFilters} id="filterbtn">Sort by ({this.props.filter}) &#9660;</button>
                 <div id="filters">
                     <button class="dropdown-btn" onClick={this.handleFilterChange} value={FilterTypes.TOP_RATED}>Top Rated</button>
                     <br/>
                     <button class="dropdown-btn" onClick={this.handleFilterChange} value={FilterTypes.VIEW_COUNT} >Most Viewed</button>
                 </div>
+
             </div>
         );
     }

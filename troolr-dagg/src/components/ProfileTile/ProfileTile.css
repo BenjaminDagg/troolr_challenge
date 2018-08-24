@@ -5,7 +5,7 @@
     border-radius: 8px;
     position: relative;
     text-align: left;
-    background-color:orange;
+
 
 }
 
@@ -29,6 +29,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.profile-container button:hover {
+    background-color: #105ca8;
 }
 
 .profile-container p {

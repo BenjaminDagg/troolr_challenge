@@ -30,7 +30,7 @@ export class ProfileTile extends Component {
                     {this.props.profile.address.city}, {this.props.profile.address.state}
                 </p>
                 <StarRating stars={this.props.profile.averageRating}/>
-                <button>View Profile</button>
+                <button class="profile-btn">View Profile</button>
             </div>
         );
     }

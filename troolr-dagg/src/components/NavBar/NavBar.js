@@ -23,11 +23,11 @@ export class NavBar extends Component {
 
         return (
             <div style={style} id="navbar">
-                <ul class="list-horiz">
-                    <li>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
                         <a href='/'>Locations</a>
                     </li>
-                    <li>
+                    <li class="navbar-item">
                         <a href="/categories">Categories</a>
                     </li>
 

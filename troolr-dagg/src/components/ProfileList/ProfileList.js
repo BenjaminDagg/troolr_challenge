@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { ProfileTile} from "../ProfileTile/ProfileTile";
 import './ProfileList.css';
+import {CategoryTypes} from "../../models/CategoryTypes";
 
 /*
 This component recieves array of profile objects, creates
@@ -55,8 +56,19 @@ export class ProfileList extends Component {
         //iterate over each profile prop and create
         //a ProfileTitle component
         var list = this.props.profiles.map((profile) => {
-            console.log(profile.name);
-            return (<ProfileTile profile={profile}/>);
+
+            //checks if the profile is in te currently selected category
+            if (this.props.categoryFilter != CategoryTypes.ALL) {
+                //check if categories match
+                if (profile.category == this.props.categoryFilter) {
+                    return (<ProfileTile profile={profile}/>);
+                }
+            }
+            //category set to ALL so display all
+            else {
+                return (<ProfileTile profile={profile}/>);
+            }
+
 
         });
 

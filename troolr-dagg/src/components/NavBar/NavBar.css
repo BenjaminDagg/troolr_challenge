@@ -6,19 +6,19 @@
 
 }
 
-ul {
+.navbar-list {
 
     list-style-type: none;
     overflow: hidden;
 }
 
-li {
+.navbar-item {
 
     float: left;
 
 }
 
-li a {
+.navbar-item a {
 
     display:block;
     padding: 10px;

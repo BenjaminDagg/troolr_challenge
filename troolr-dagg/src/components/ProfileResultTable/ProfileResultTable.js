@@ -3,6 +3,8 @@ import {ProfileList} from "../ProfileList/ProfileList";
 import "./ProfileResultTable.css"
 import {ProfileListFilter} from "../ProfileListFilter/ProfileListFilter";
 import { FilterTypes} from "../../models/FilterTypes";
+import { CategoryFilter } from "../CategoryFilter/CategoryFilter";
+import { CategoryTypes } from "../../models/CategoryTypes";
 
 /*
 This component is thhe complete profile viewing page.
@@ -18,10 +20,12 @@ export class ProfileResultTable extends Component {
         super(props);
 
         this.state = {
-            profileFilter: FilterTypes.TOP_RATED
+            profileFilter: FilterTypes.TOP_RATED,
+            categoryFilter: CategoryTypes.ALL
         };
 
         this.onFilterChanged = this.onFilterChanged.bind(this);
+        this.onCategoryChanged = this.onCategoryChanged.bind(this);
     }
 
     /*
@@ -44,12 +48,67 @@ export class ProfileResultTable extends Component {
         }
     }
 
+    /*
+    Callback called from CategoryFilter when user presses
+    a category button. Passes value of the category button passed
+    and updates state
+     */
+    onCategoryChanged(filter) {
+
+        switch(filter) {
+            case 'Home':
+                this.setState({categoryFilter: CategoryTypes.HOME});
+                break;
+            case 'Wellness':
+                this.setState({categoryFilter: CategoryTypes.WELLNESS});
+                break;
+            case 'Consulting':
+                this.setState({categoryFilter: CategoryTypes.CONSULTING});
+                break;
+            case 'Automotive':
+                this.setState({categoryFilter: CategoryTypes.AUTOMOTIVE});
+                break;
+            case 'Events':
+                this.setState({categoryFilter: CategoryTypes.EVENTS});
+                break;
+            case 'Tech':
+                this.setState({categoryFilter: CategoryTypes.TECH});
+                break;
+            case 'Pets':
+                this.setState({categoryFilter: CategoryTypes.PETS});
+                break;
+            case 'Education':
+                this.setState({categoryFilter: CategoryTypes.EDUCATION});
+                break;
+            default:
+                this.setState({categoryFilter: CategoryTypes.ALL});
+        }
+
+    }
+
+
+    getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(this.onPositionFetch);
+        }
+        else {
+
+        }
+    }
+
+
+    onPositionFetch(position) {
+
+    }
+
     render() {
 
         return (
             <div id="profile-page-container">
                 <ProfileListFilter onFilterChanged={this.onFilterChanged} filter={this.state.profileFilter}/>
-                <ProfileList filter={this.state.profileFilter} profiles={this.props.profiles}/>
+
+                <ProfileList categoryFilter={this.state.categoryFilter} filter={this.state.profileFilter} profiles={this.props.profiles}/>
+                <CategoryFilter onCategoryChanged={this.onCategoryChanged}/>
             </div>
         );
     }
