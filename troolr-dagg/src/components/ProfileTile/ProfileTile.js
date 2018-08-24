@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./ProfileTile.css";
 import { StarRating} from "../StarRating/StarRating";
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 /*
 This component displays a div to represent
@@ -18,6 +19,8 @@ export class ProfileTile extends Component {
 
     render() {
 
+
+
         return (
             <div  class="profile-container">
                 <img src = {this.props.profile.profile_picture} />
@@ -30,7 +33,9 @@ export class ProfileTile extends Component {
                     {this.props.profile.address.city}, {this.props.profile.address.state}
                 </p>
                 <StarRating stars={this.props.profile.averageRating}/>
-                <button class="profile-btn">View Profile</button>
+                <Link to={'/profile/' + this.props.profile.id} >
+                    <button class="profile-btn">View Profile</button>
+                </Link>
             </div>
         );
     }

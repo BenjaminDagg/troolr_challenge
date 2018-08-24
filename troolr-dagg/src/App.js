@@ -7,6 +7,8 @@ import { ProfileTile} from "./components/ProfileTile/ProfileTile";
 import { profiles} from "./models/profiles";
 import { ProfileList} from "./components/ProfileList/ProfileList";
 import {ProfileResultTable} from "./components/ProfileResultTable/ProfileResultTable";
+import { ProfileDetails } from "./components/ProfileDetails/ProfileDetails";
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -14,7 +16,14 @@ class App extends Component {
       <div className="App">
           <Logo/>
           <NavBar/>
-          <ProfileResultTable profiles={profiles}/>
+          <Router>
+              <div>
+                  <Route exact={true} path="/" render={()=><ProfileResultTable profiles={profiles}/>} />
+                  <Route path="/profile/:id" component={ProfileDetails} />
+              </div>
+
+
+          </Router>
       </div>
     );
   }

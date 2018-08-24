@@ -2,6 +2,7 @@ export const profiles = [{
     "url": "alex",
     "name": "Alex Matarasso",
     "score": 0,
+    "id" : 1,
     "views": [{
         "time": "2018-06-02T22:15:45+00:00",
         "lname": "John",
@@ -47,6 +48,7 @@ export const profiles = [{
     "url": "kyle",
     "name": "Kyle",
     "score": 0,
+    "id": 2,
     "views": [{
         "time": "2018-06-02T22:15:45+00:00",
         "lname": "Kyle",
@@ -87,6 +89,7 @@ export const profiles = [{
         "url": "kyle",
         "name": "Kyle",
         "score": 0,
+        "id": 3,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "Kyle",
@@ -121,6 +124,7 @@ export const profiles = [{
         "url": "kyle",
         "name": "Kyle",
         "score": 0,
+        "id": 4,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "Kyle",
@@ -168,6 +172,7 @@ export const profiles = [{
         "url": "kyle",
         "name": "Kyle",
         "score": 0,
+        "id": 5,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "Kyle",
@@ -202,6 +207,7 @@ export const profiles = [{
         "url": "kyle",
         "name": "Kyle",
         "score": 0,
+        "id": 6,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "Kyle",
@@ -232,6 +238,7 @@ export const profiles = [{
         "url": "kyle",
         "name": "Kyle",
         "score": 0,
+        "id": 7,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "Kyle",
@@ -266,6 +273,7 @@ export const profiles = [{
         "url": "alex",
         "name": "Alex Matarasso",
         "score": 0,
+        "id": 8,
         "views": [{
             "time": "2018-06-02T22:15:45+00:00",
             "lname": "John",
