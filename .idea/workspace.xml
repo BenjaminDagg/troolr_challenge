@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52f4c914-fa84-4b8e-8d12-41912c440a1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/troolr-dagg/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/troolr-dagg/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js" beforeDir="false" afterPath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.css" beforeDir="false" afterPath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/troolr-dagg/src/models/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/troolr-dagg/src/models/profiles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,32 +47,34 @@
     <session id="1226368131">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1436" />
-          <entry key="js" value="2915" />
+          <entry key="css" value="2007" />
+          <entry key="js" value="3001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1436" />
-          <entry key="JavaScript" value="2915" />
+          <entry key="CSS" value="2007" />
+          <entry key="JavaScript" value="3001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
+          <entry key="css" value="5" />
           <entry key="js" value="5" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="5" />
         </counts>
@@ -82,18 +83,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/Logo/Logo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/Logo/Logo.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="136">
               <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -118,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-end-line="40" />
+            <state relative-caret-position="357">
+              <caret line="22" selection-end-line="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -130,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/models/profiles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="530">
+              <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,11 +137,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="207">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -160,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -192,8 +190,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -209,11 +207,12 @@
         <option value="$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.css" />
         <option value="$PROJECT_DIR$/troolr-dagg/src/models/Address.js" />
         <option value="$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.js" />
-        <option value="$PROJECT_DIR$/troolr-dagg/src/models/profiles.js" />
         <option value="$PROJECT_DIR$/troolr-dagg/src/App.js" />
-        <option value="$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js" />
         <option value="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.js" />
+        <option value="$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js" />
         <option value="$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.css" />
+        <option value="$PROJECT_DIR$/troolr-dagg/src/models/profiles.js" />
+        <option value="$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.css" />
       </list>
     </option>
   </component>
@@ -232,8 +231,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1101" />
-    <option name="width" value="826" />
+    <option name="x" value="867" />
+    <option name="width" value="1060" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -242,9 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,12 +309,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535008661016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535071706852" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node_modules/npm/node_modules/create-react-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -353,18 +352,19 @@
       <option name="presentableId" value="Default" />
       <updated>1534997584617</updated>
       <workItem from="1534997588714" duration="736000" />
-      <workItem from="1534998367785" duration="10178000" />
+      <workItem from="1534998367785" duration="11024000" />
+      <workItem from="1535067501475" duration="4178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10914000" />
+    <option name="totallyTimeSpent" value="15938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1101" y="0" width="826" height="1047" extended-state="0" />
+    <frame x="867" y="0" width="1060" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30417755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,10 +404,15 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/troolr-dagg/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/models/Address.js" />
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/Logo/Logo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="102">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -419,10 +424,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.css">
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="136">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -433,57 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/models/Address.js">
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/Logo/Logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/NavBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/models/profiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -497,10 +468,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileTile/ProfileTile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/models/profiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/troolr-dagg/src/components/ProfileList/ProfileList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>

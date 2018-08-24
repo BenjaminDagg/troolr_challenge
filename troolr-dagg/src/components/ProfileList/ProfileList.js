@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ProfileTile} from "../ProfileTile/ProfileTile";
+import './ProfileList.css';
 
 /*
 This component recieves array of profile objects, creates
@@ -30,11 +31,7 @@ export class ProfileList extends Component {
         });
 
         //return array of ProfileTiles
-        return (
-           <div>
-               {list}
-           </div>
-        );
+        return list;
     }
 
     render() {
@@ -43,7 +40,7 @@ export class ProfileList extends Component {
         var table = this.createTable();
 
         return (
-            <div  class="profile-container">
+            <div  id="list-container">
                 {table}
             </div>
         );

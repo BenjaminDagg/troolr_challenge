@@ -1,9 +1,11 @@
 .profile-container {
-    height: 300px;
-    width: 200px;
+    height: 350px;
+    width: 250px;
     background-color: red;
     margin: 10px;
     border-radius: 8px;
+    position: relative;
+
 }
 
 .profile-container img {
@@ -17,13 +19,13 @@
 }
 
 .profile-container button {
-    width: 50%;
+    width: 100px;
     background-color: #337ab7;
     color: white;
     height: 30px;
     border-radius: 6px;
     padding: 5px;
-    position: inherit;
+    position: absolute;
     right: 0;
 }
 
