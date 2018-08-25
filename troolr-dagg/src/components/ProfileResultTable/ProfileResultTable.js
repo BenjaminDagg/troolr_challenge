@@ -86,21 +86,6 @@ export class ProfileResultTable extends Component {
 
     }
 
-
-    getLocation() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(this.onPositionFetch);
-        }
-        else {
-
-        }
-    }
-
-
-    onPositionFetch(position) {
-
-    }
-
     render() {
 
         return (

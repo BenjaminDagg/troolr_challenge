@@ -4,8 +4,10 @@ import "./ProfileDetailsSideBar.css";
 
 
 /*
-This component is the navigation bar at the
-top of the home page
+This component is the sidebar of the ProfileDetails component
+to display a users contact information and stats
+-props
+    profile: the profile to display
  */
 
 export class ProfileDetailsSideBar extends Component {

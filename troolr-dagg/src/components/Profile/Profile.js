@@ -4,8 +4,9 @@ import { StarRating } from "../StarRating/StarRating";
 
 
 /*
-This component is the navigation bar at the
-top of the home page
+This component displays a users profile information in a clean div
+-props
+    profile: profile object to display
  */
 
 export class Profile extends Component {

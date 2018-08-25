@@ -47,17 +47,7 @@ export class ProfileListFilter extends Component {
 
     render() {
 
-        /*
-        return (
-            <div  id="list-filter">
-                <select id="filter" value={this.props.filters} onChange={this.handleFilterChange}>
-                    <option class="filter-option">Sort By ({this.props.filter})</option>
-                    <option class="filter-option" value={FilterTypes.TOP_RATED}>{FilterTypes.TOP_RATED}</option>
-                    <option class="filter-option" value = {FilterTypes.VIEW_COUNT}>{FilterTypes.VIEW_COUNT}</option>
-                </select>
-            </div>
-        );
-        */
+
         return (
             <div id="list-filter">
 

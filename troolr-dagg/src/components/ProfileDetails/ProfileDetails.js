@@ -9,8 +9,16 @@ import { ProfileDetailsSwitch} from "../ProfileDetailsSwitch/ProfileDetailsSwitc
 import { ProfileDetailsSideBar} from "../ProfileDetailsSideBar/ProfileDetailsSideBar";
 
 /*
-This component is the navigation bar at the
-top of the home page
+This component is landing page for a users profile
+By default displays profile information, but contains
+router to switch to user reviews
+-props
+    id: profile id passed in from url parameter
+-children
+    Profile
+    ProfilrReviews
+    ProfileDetailsSwitch
+    ProfileDetailsSideBar
  */
 
 export class ProfileDetails extends Component {
@@ -76,7 +84,10 @@ export class ProfileDetails extends Component {
                         {this.state.profile != null &&
                             <Route exact path="/profile/:id" render={() => <Profile profile={this.state.profile}/>}/>
                         }
-                        <Route  path="/profile/:id/reviews" render={()=><ProfileReviews/>} />
+                        {this.state.profile != null &&
+                        <Route  path="/profile/:id/reviews" render={()=><ProfileReviews reviews={this.state.profile.reviews}/>} />
+                        }
+
                     </div>
                 </Router>
 

@@ -10,6 +10,7 @@ a grid
 -props
     profiles: array of profile objects to display
     filter (string) : type of filter to sort  profile array by(top viewed or top rated)
+    categoryFilter (CategoryTypes): currently selected category by user
  */
 
 export class ProfileList extends Component {

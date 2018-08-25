@@ -6,6 +6,7 @@ import "./NavBar.css";
 /*
 This component is the navigation bar at the
 top of the home page
+-props: none
  */
 
 export class NavBar extends Component {

@@ -1,0 +1,13 @@
+#review-list {
+    width: 60%;
+    height: 90%;
+    position:absolute;
+    left: 0;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+
+#review-title {
+    text-align: left;
+}

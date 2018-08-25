@@ -1,3 +1,7 @@
+/*
+Object to store the currently selected category by the user
+ */
+
 export const CategoryTypes = {
     HOME: 'Home',
     WELLNESS: 'Wellness',

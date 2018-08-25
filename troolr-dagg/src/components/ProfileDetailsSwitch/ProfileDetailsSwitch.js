@@ -5,8 +5,12 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 
 /*
-This component is the navigation bar at the
-top of the home page
+This component is the button at the top of
+the ProfileDetails page that allows the user to switch
+between viewing a users profile and a users reviews by
+routing to the appropriate page
+-props
+    profile: users profile to send their id to next page
  */
 
 export class ProfileDetailsSwitch extends Component {

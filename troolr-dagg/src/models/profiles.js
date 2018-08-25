@@ -1,3 +1,7 @@
+/*
+Represents profiles fetched from a database
+ */
+
 export const profiles = [{
     "url": "alex",
     "name": "Alex Matarasso",

@@ -6,6 +6,8 @@ import { CategoryTypes } from "../../models/CategoryTypes";
 /*
 This component displays buttons to filter the profile
 list by categories
+-props
+    onCategoryChanged(event) callback function to pass parent newly selected category
  */
 
 export class CategoryFilter extends Component {
@@ -16,7 +18,10 @@ export class CategoryFilter extends Component {
         this.handleCategoryChange = this.handleCategoryChange.bind(this);
     }
 
-
+    /*
+    Callback to parent (ProfileResultTable) to pass it
+    the currently selected category and update state.
+     */
     handleCategoryChange(event) {
         this.props.onCategoryChanged(event.target.value);
     }
