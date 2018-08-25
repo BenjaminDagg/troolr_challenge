@@ -1,0 +1,72 @@
+#profile-content {
+    width: 60%;
+    height: 90%;
+    position:absolute;
+    left: 0;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+
+#profile-header {
+    width: 100%;
+    height: 30%;
+    background-color: #7cacf9;
+    border-radius: 6px;
+    position: relative;
+}
+
+#profile-info {
+    width: 100%;
+    height: 70%;
+    position:relative;
+    border-radius: 6px;
+}
+
+.image-box img {
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+#rating {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+
+}
+
+#rating-count {
+
+    position: relative;
+    float: right;
+    top: 25px;
+    overflow: auto;
+}
+
+#profile-info a {
+    text-align: center;
+    color: green;
+    margin-top: 50px;
+    width: 75%;
+    position: absolute;
+    left: 30px;
+}
+
+#profile-info h2 {
+    text-align: center;
+    position: absolute;
+    top: 70px;
+}
+
+#profile-info p {
+    position: absolute;
+    top: 120px;
+}
+

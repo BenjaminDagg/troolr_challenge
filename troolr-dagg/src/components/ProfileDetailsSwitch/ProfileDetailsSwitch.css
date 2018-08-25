@@ -1,0 +1,27 @@
+.switch-btn {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+
+}
+
+.switch-btn:focus {
+    background-color: #5c6068;
+    color: white;
+}
+
+.switch-btn:hover {
+    background-color: #5c6068;
+    color: white;
+    cursor: pointer;
+}
+
+#profile-switch-container {
+
+    width: 250px;
+}
+

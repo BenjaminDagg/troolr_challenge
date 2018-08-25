@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import { profiles } from "../../models/profiles";
 import "./ProfileDetails.css";
+import {ProfileResultTable} from "../ProfileResultTable/ProfileResultTable";
+import { Profile} from "../Profile/Profile";
+import { ProfileReviews} from "../ProfileReviews/ProfileReviews";
+import { ProfileDetailsSwitch} from "../ProfileDetailsSwitch/ProfileDetailsSwitch";
+import { ProfileDetailsSideBar} from "../ProfileDetailsSideBar/ProfileDetailsSideBar";
 
 /*
 This component is the navigation bar at the
@@ -21,11 +26,14 @@ export class ProfileDetails extends Component {
     }
 
     componentDidMount() {
+
+        //get id passed in from url parameters
         var profileId = this.props.match.params.id;
-        console.log('id = ' + profileId);
+
+        //find the profile object for the given id
         for (var i = 0; i < profiles.length;i++) {
             if (parseInt(profiles[i].id) == profileId) {
-                console.log('found progile');
+
                 this.setState({profile: profiles[i]});
             }
         }
@@ -55,7 +63,23 @@ export class ProfileDetails extends Component {
 
         return (
             <div id="profile-details">
-                {profile}
+                {this.state.profile != null &&
+                    <ProfileDetailsSwitch profile={this.state.profile}/>
+
+                }
+                {this.state.profile != null &&
+                    <ProfileDetailsSideBar profile={this.state.profile}/>
+                }
+
+                <Router>
+                    <div>
+                        {this.state.profile != null &&
+                            <Route exact path="/profile/:id" render={() => <Profile profile={this.state.profile}/>}/>
+                        }
+                        <Route  path="/profile/:id/reviews" render={()=><ProfileReviews/>} />
+                    </div>
+                </Router>
+
             </div>
         );
     }
